@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #aaa;
+}
+
+body {
+    overflow: hidden;
+}
+
+.relogio {
+    border: 2px solid #ff0000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.display {
+    background-color: #2C2E43;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 7rem;
+    font-family: 'Qahiri', sans-serif;
+    border: 3px solid #ff0000;
+}
+
+footer {
+    font-size: 1.5rem;
+    margin-top: 10px; /*levar lá pra baixo*/
+    color: #b10202;
+    font-family: 'Barlow Condensed', sans-serif;
+}
